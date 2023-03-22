@@ -1,0 +1,92 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+@media screen and(min-width:768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  }
+}
+.heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #333333;
+}
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+}
+
+@media screen and (min-width: 992px) {
+  .stopwatch-container {
+    align-items: flex-start;
+    margin-left: 160px;
+  }
+}
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 310px;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0px 4px 40px rgba(23, 31, 70, 0.16);
+}
+.first-container {
+  display: flex;
+  justify-content: center;
+}
+.stopwatch-img {
+  margin-right: 3px;
+  height: 3vh;
+  width: 1vw;
+  margin-top: 22px;
+}
+.name {
+  color: #333333;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.showing-timer {
+  padding-bottom: 30px;
+}
+.timerr {
+  font-size: 50px;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.start-btn {
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #1db05f;
+  border-radius: 5px;
+  border: 0;
+}
+.stop-btn {
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #ef0d36;
+  border-radius: 5px;
+  border: 0;
+}
+.reset-btn {
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #eaa800;
+  border-radius: 5px;
+  border: 0;
+}
